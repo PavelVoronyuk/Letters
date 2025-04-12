@@ -1,0 +1,9 @@
+{% extends "letters/base.html" %}
+
+{% block content %}
+{{ super() }}
+<form action="{{ url_for('letters.handle_letter_submission') }}" method="post">
+    <textarea name="content" rows="10" cols="50" placeholder="Type your message here..." required></textarea><br>
+    <button type="submit">⬅️Create link➡️</button>
+</form>
+{% endblock %}

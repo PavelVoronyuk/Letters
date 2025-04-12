@@ -1,0 +1,8 @@
+{% extends "letters/base.html" %}
+
+{% block content %}
+<h2>✅Your link is ready!✅</h2>
+<p>📨Send this link to someone:📨</p>
+<a href="{{ url_for('letters.inspect_letter', uuid=uuid, _external=True) }}">{{ url_for('letters.inspect_letter',
+    uuid=uuid, _external=True) }}</a>
+{% endblock %}
