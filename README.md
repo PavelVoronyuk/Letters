@@ -15,20 +15,16 @@
 
 ## 🚀 Как запустить
 
-1. Склонируй проект:
-git clone https://github.com/your_username/Letters.git
-cd Letters
-
-2. Создай .env файл
+1. Создай .env файл
 SECRET_KEY = "My_Secret_Key"
 DB_NAME=your_db_name
 DB_USER=your_db_user
 DB_PASSWORD=your_db_password
 
-3. Установи зависимости:
+2. Установи зависимости:
 pip install -r requirements.txt
 
-4. Запусти приложение:
+3. Запусти приложение:
 flask run
 
 ✅ Возможности
