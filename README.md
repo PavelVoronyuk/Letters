@@ -16,8 +16,8 @@
 ## 🚀 Как запустить
 
 1. Склонируй проект:
-git clone https://github.com/your_username/secret-letter-box.git
-cd secret-letter-box
+git clone https://github.com/your_username/Letters.git
+cd Letters
 
 2. Создай .env файл
 SECRET_KEY = "My_Secret_Key"
