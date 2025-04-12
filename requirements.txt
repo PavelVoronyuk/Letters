@@ -1,0 +1,6 @@
+flask
+flask-restx
+pydantic
+python-dotenv
+peewee
+psycopg2-binary
