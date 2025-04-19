@@ -16,18 +16,18 @@
 ## 🚀 Как запустить
 
 1. Создай .env файл
-SECRET_KEY = "My_Secret_Key"
-DB_NAME=your_db_name
-DB_USER=your_db_user
-DB_PASSWORD=your_db_password
+- SECRET_KEY = "My_Secret_Key"
+- DB_NAME=your_db_name
+- DB_USER=your_db_user
+- DB_PASSWORD=your_db_password
 
 2. Установи зависимости:
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 3. Запусти приложение:
-flask run
+- flask run
 
-✅ Возможности
+## ✅ Возможности
 - Создание письма через форму.
 - Генерация уникальной ссылки.
 - Однократное открытие письма.
